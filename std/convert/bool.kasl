@@ -1,0 +1,17 @@
+// --- BOOL CASTING ---
+
+func boolToInt(value: Bool) -> Int {
+    if value {
+        return 1
+    } else {
+        return 0
+    }
+}
+
+func boolToFloat(value: Bool) -> Float {
+    if value {
+        return 1.0
+    } else {
+        return 0.0
+    }
+}

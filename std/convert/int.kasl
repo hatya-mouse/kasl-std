@@ -1,0 +1,5 @@
+// --- INT CASTING ---
+
+func intToFloat(value: Int) -> Float {
+    return Builtin.itof(value)
+}

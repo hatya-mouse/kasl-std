@@ -8,7 +8,7 @@ func infix ||(lhs: Bool, rhs: Bool) -> Bool {
     return Builtin.or(lhs, rhs)
 }
 
-func prefix !(lhs: Bool) -> Bool {
+func prefix !(operand: Bool) -> Bool {
     return Builtin.not(lhs)
 }
 
@@ -38,6 +38,6 @@ func xnor(lhs: Bool, rhs: Bool) -> Bool {
     return Builtin.xnor(lhs, rhs)
 }
 
-func not(lhs: Bool) -> Bool {
+func not(operand: Bool) -> Bool {
     return Builtin.not(lhs)
 }
