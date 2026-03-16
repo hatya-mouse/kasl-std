@@ -63,7 +63,6 @@ operator infix % {
     associativity: left
 }
 
-operator infix ! {
-    precedence: 70,
-    associativity: left
+operator prefix ! {
+    precedence: 70
 }
