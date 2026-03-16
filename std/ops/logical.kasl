@@ -11,3 +11,33 @@ func infix ||(lhs: Bool, rhs: Bool) -> Bool {
 func prefix !(lhs: Bool) -> Bool {
     return Builtin.not(lhs)
 }
+
+// --- BOOL LOGICAL FUNCTIONS ---
+
+func and(lhs: Bool, rhs: Bool) -> Bool {
+    return Builtin.and(lhs, rhs)
+}
+
+func or(lhs: Bool, rhs: Bool) -> Bool {
+    return Builtin.or(lhs, rhs)
+}
+
+func xor(lhs: Bool, rhs: Bool) -> Bool {
+    return Builtin.xor(lhs, rhs)
+}
+
+func nand(lhs: Bool, rhs: Bool) -> Bool {
+    return Builtin.nand(lhs, rhs)
+}
+
+func nor(lhs: Bool, rhs: Bool) -> Bool {
+    return Builtin.nor(lhs, rhs)
+}
+
+func xnor(lhs: Bool, rhs: Bool) -> Bool {
+    return Builtin.xnor(lhs, rhs)
+}
+
+func not(lhs: Bool) -> Bool {
+    return Builtin.not(lhs)
+}
