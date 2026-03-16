@@ -1,0 +1,61 @@
+// --- INT COMPATISON OPERATORS ---
+
+func infix ==(lhs: Int, rhs: Int) -> Bool {
+    return Builtin.ieq(lhs, rhs)
+}
+
+func infix !=(lhs: Int, rhs: Int) -> Bool {
+    return Builtin.ineq(lhs, rhs)
+}
+
+func infix >(lhs: Int, rhs: Int) -> Bool {
+    return Builtin.igt(lhs, rhs)
+}
+
+func infix <(lhs: Int, rhs: Int) -> Bool {
+    return Builtin.ilt(lhs, rhs)
+}
+
+func infix >=(lhs: Int, rhs: Int) -> Bool {
+    return Builtin.ige(lhs, rhs)
+}
+
+func infix <=(lhs: Int, rhs: Int) -> Bool {
+    return Builtin.ile(lhs, rhs)
+}
+
+// --- FLOAT COMPATISON OPERATORS ---
+
+func infix ==(lhs: Float, rhs: Float) -> Bool {
+    return Builtin.feql(lhs, rhs)
+}
+
+func infix !=(lhs: Float, rhs: Float) -> Bool {
+    return Builtin.fneq(lhs, rhs)
+}
+
+func infix >(lhs: Float, rhs: Float) -> Bool {
+    return Builtin.fgt(lhs, rhs)
+}
+
+func infix <(lhs: Float, rhs: Float) -> Bool {
+    return Builtin.flt(lhs, rhs)
+}
+
+func infix >=(lhs: Float, rhs: Float) -> Bool {
+    return Builtin.fge(lhs, rhs)
+}
+
+func infix <=(lhs: Float, rhs: Float) -> Bool {
+    return Builtin.fle(lhs, rhs)
+}
+
+// --- BOOL COMPATISON OPERATORS ---
+
+func infix ==(lhs: Bool, rhs: Bool) -> Bool {
+    return lhs == rhs
+}
+
+func infix !=(lhs: Bool, rhs: Bool) -> Bool {
+    return lhs != rhs
+}
