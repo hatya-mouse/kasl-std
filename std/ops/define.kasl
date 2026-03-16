@@ -1,0 +1,69 @@
+operator infix || {
+    precedence: 10,
+    associativity: left
+}
+
+operator infix && {
+    precedence: 20,
+    associativity: left
+}
+
+operator infix == {
+    precedence: 30,
+    associativity: none
+}
+
+operator infix != {
+    precedence: 30,
+    associativity: none
+}
+
+operator infix < {
+    precedence: 40,
+    associativity: none
+}
+
+operator infix > {
+    precedence: 40,
+    associativity: none
+}
+
+operator infix <= {
+    precedence: 40,
+    associativity: none
+}
+
+operator infix >= {
+    precedence: 40,
+    associativity: none
+}
+
+operator infix + {
+    precedence: 50,
+    associativity: left
+}
+
+operator infix - {
+    precedence: 50,
+    associativity: left
+}
+
+operator infix * {
+    precedence: 60,
+    associativity: left
+}
+
+operator infix / {
+    precedence: 60,
+    associativity: left
+}
+
+operator infix % {
+    precedence: 60,
+    associativity: left
+}
+
+operator infix ! {
+    precedence: 70,
+    associativity: left
+}

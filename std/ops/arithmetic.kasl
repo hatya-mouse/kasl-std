@@ -1,0 +1,43 @@
+// --- INT OPERATORS ---
+
+func infix +(lhs: Int, rhs: Int) -> Int {
+    return Builtin.iadd(lhs, rhs)
+}
+
+func infix -(lhs: Int, rhs: Int) -> Int {
+    return Builtin.isub(lhs, rhs)
+}
+
+func infix *(lhs: Int, rhs: Int) -> Int {
+    return Builtin.imul(lhs, rhs)
+}
+
+func infix /(lhs: Int, rhs: Int) -> Int {
+    return Builtin.idiv(lhs, rhs)
+}
+
+func infix %(lhs: Int, rhs: Int) -> Int {
+    return Builtin.imod(lhs, rhs)
+}
+
+// --- FLOAT OPERATORS ---
+
+func infix +(lhs: Float, rhs: Float) -> Float {
+    return Builtin.fadd(lhs, rhs)
+}
+
+func infix -(lhs: Float, rhs: Float) -> Float {
+    return Builtin.fsub(lhs, rhs)
+}
+
+func infix *(lhs: Float, rhs: Float) -> Float {
+    return Builtin.fmul(lhs, rhs)
+}
+
+func infix /(lhs: Float, rhs: Float) -> Float {
+    return Builtin.fdiv(lhs, rhs)
+}
+
+func infix %(lhs: Float, rhs: Float) -> Float {
+    return Builtin.fmod(lhs, rhs)
+}
