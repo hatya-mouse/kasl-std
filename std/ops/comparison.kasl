@@ -27,7 +27,7 @@ func infix <=(lhs: Int, rhs: Int) -> Bool {
 // --- FLOAT COMPATISON OPERATORS ---
 
 func infix ==(lhs: Float, rhs: Float) -> Bool {
-    return Builtin.feql(lhs, rhs)
+    return Builtin.feq(lhs, rhs)
 }
 
 func infix !=(lhs: Float, rhs: Float) -> Bool {
