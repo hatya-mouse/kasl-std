@@ -1,5 +1,0 @@
-// --- FLOAT CASTING ---
-
-func floatToInt(value: Float) -> Int {
-    return Builtin.ftoi(value)
-}

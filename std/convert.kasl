@@ -15,3 +15,15 @@ func boolToFloat(value: Bool) -> Float {
         return 0.0
     }
 }
+
+// --- FLOAT CASTING ---
+
+func floatToInt(value: Float) -> Int {
+    return Builtin.ftoi(value)
+}
+
+// --- INT CASTING ---
+
+func intToFloat(value: Int) -> Float {
+    return Builtin.itof(value)
+}
