@@ -1,6 +1,6 @@
 // --- BOOL CASTING ---
 
-func boolToInt(value: Bool) -> Int {
+func bool_to_int(value: Bool) -> Int {
     if value {
         return 1
     } else {
@@ -8,7 +8,7 @@ func boolToInt(value: Bool) -> Int {
     }
 }
 
-func boolToFloat(value: Bool) -> Float {
+func bool_to_float(value: Bool) -> Float {
     if value {
         return 1.0
     } else {
@@ -18,12 +18,12 @@ func boolToFloat(value: Bool) -> Float {
 
 // --- FLOAT CASTING ---
 
-func floatToInt(value: Float) -> Int {
+func float_to_int(value: Float) -> Int {
     return Builtin.ftoi(value)
 }
 
 // --- INT CASTING ---
 
-func intToFloat(value: Int) -> Float {
+func int_to_float(value: Int) -> Float {
     return Builtin.itof(value)
 }
