@@ -24,6 +24,10 @@ func prefix -(operand: Int) -> Int {
     return Builtin.ineg(operand)
 }
 
+func prefix +(operand: Int) -> Int {
+    return operand
+}
+
 // --- FLOAT OPERATORS ---
 
 func infix +(lhs: Float, rhs: Float) -> Float {
@@ -48,4 +52,8 @@ func infix %(lhs: Float, rhs: Float) -> Float {
 
 func prefix -(operand: Float) -> Float {
     return Builtin.fneg(operand)
+}
+
+func prefix +(operand: Float) -> Float {
+    return operand
 }

@@ -8,65 +8,98 @@ operator infix && {
     associativity: left
 }
 
-operator infix == {
+operator infix | {
     precedence: 30,
+    associativity: left
+}
+
+operator infix ^ {
+    precedence: 40,
+    associativity: left
+}
+
+operator infix & {
+    precedence: 50,
+    associativity: left
+}
+
+operator infix == {
+    precedence: 60,
     associativity: none
 }
 
 operator infix != {
-    precedence: 30,
+    precedence: 60,
     associativity: none
 }
 
 operator infix < {
-    precedence: 40,
+    precedence: 70,
     associativity: none
 }
 
 operator infix > {
-    precedence: 40,
+    precedence: 70,
     associativity: none
 }
 
 operator infix <= {
-    precedence: 40,
+    precedence: 70,
     associativity: none
 }
 
 operator infix >= {
-    precedence: 40,
+    precedence: 70,
     associativity: none
 }
 
+operator infix >> {
+    precedence: 80,
+    associativity: left
+}
+
+operator infix << {
+    precedence: 80,
+    associativity: left
+}
+
 operator infix + {
-    precedence: 50,
+    precedence: 90,
     associativity: left
 }
 
 operator infix - {
-    precedence: 50,
+    precedence: 90,
     associativity: left
 }
 
 operator infix * {
-    precedence: 60,
+    precedence: 100,
     associativity: left
 }
 
 operator infix / {
-    precedence: 60,
+    precedence: 100,
     associativity: left
 }
 
 operator infix % {
-    precedence: 60,
+    precedence: 100,
     associativity: left
 }
 
 operator prefix - {
-    precedence: 70
+    precedence: 110
+}
+
+operator prefix + {
+    precedence: 110
 }
 
 operator prefix ! {
-    precedence: 70
+    precedence: 110
+}
+
+operator prefix ~ {
+    precedence: 110
 }
